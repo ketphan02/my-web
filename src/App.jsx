@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+export default App;
+
 function App() {
   return (
     <div className="App">
@@ -23,4 +25,8 @@ function App() {
   );
 }
 
-export default App;
+/*
+git add .
+git commit -m 'commit'
+git push origin master
+*/
