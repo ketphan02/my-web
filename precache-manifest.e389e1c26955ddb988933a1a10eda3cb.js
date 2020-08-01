@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af9e52a71af02e276c30d746525b5e56",
+    "revision": "2f16aa9dbeab52a813f3250c9371b7d5",
     "url": "/my-web/index.html"
   },
   {
-    "revision": "b71dee57dc3728d19887",
-    "url": "/my-web/static/css/main.760a3629.chunk.css"
+    "revision": "18a5e69001fe4769be7d",
+    "url": "/my-web/static/css/main.838d9e37.chunk.css"
   },
   {
     "revision": "6641afe1f8dbe7baca29",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-web/static/js/2.8e6148a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b71dee57dc3728d19887",
-    "url": "/my-web/static/js/main.2fb60a63.chunk.js"
+    "revision": "18a5e69001fe4769be7d",
+    "url": "/my-web/static/js/main.405fcc34.chunk.js"
   },
   {
     "revision": "5b1b7f907bbee126f38d",
     "url": "/my-web/static/js/runtime-main.4abdfd6f.js"
+  },
+  {
+    "revision": "ee6539921d713482b8ccd4d0d23961bb",
+    "url": "/my-web/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
