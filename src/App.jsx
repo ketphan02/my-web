@@ -8,23 +8,20 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <pp>
-            <h1 className="App-title"> PHAN_KIET </h1>
 
-            <qq>
+          <content-area>
 
-              <div className="App-title-logo"> HELLO </div>
-            </qq>
-            <qp>
-              <button className="App-title-button"> HELLO </button>
-            </qp>
-          </pp>       
+            <h2 className="title">
+              PHAN_KIET_BLOG
+            </h2>
+
+            <button className="title-button">
+              MAGIC BUTTON
+            </button>
+
+          </content-area>  
       </header>
 
-      <bd>
-        <h2> Phan Kiệt nè </h2>
-        <txt> A website allow me to show my projects. </txt>
-      </bd>
     </div>
   );
 }
