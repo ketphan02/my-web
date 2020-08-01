@@ -8,19 +8,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <pp>
+            <h1 className="App-title"> PHAN_KIET </h1>
+
+            <qq>
+
+              <div className="App-title-logo"> HELLO </div>
+            </qq>
+            <qp>
+              <button className="App-title-button"> HELLO </button>
+            </qp>
+          </pp>       
       </header>
+
+      <bd>
+        <h2> Phan Kiệt nè </h2>
+        <txt> A website allow me to show my projects. </txt>
+      </bd>
     </div>
   );
 }
