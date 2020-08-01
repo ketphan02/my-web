@@ -26,7 +26,10 @@ function App() {
 }
 
 /*
+
 git add .
 git commit -m 'commit'
 git push origin master
+npm deploy
+
 */
