@@ -13,9 +13,9 @@ function About() {
             <h2>
               <a href="/my-web/" className="title" > PHAN_KIET_BLOG </a>
             </h2>
-            <form action="https://google.com">
+            {/* <form action="https://google.com">
               <button className="title-button"> MAGIC BUTTON </button>
-            </form>
+            </form> */}
 
           </content-area>
 
