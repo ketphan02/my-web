@@ -15,32 +15,3 @@
 .App-link {
   color: #61dafb;
 }
-
-content-area {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1360px;
-  padding: 6px 0;
-  width: 95%;
-}
-
-.title {
-  color: white;
-}
-
-.title-button {
-  border-radius: 6px;
-  border-color: white;
-  background-color: #282c34;
-  color: white;
-  padding: 15px 30px;
-  font-size: large;
-  font-family: Montserrat;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: local('Montserrat'), url(./fonts/Montserrat-Regular.ttf) format('truetype');
-}

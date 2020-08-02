@@ -1,0 +1,69 @@
+content-area {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1360px;
+    padding: 6px 0;
+    width: 95%;
+}
+  
+.title {
+    color: white;
+}
+  
+.title-button {
+    border-radius: 6px;
+    border-color: white;
+    background-color: #282c34;
+    color: white;
+    padding: 15px 30px;
+    font-size: large;
+    font-family: Montserrat light;
+}
+  
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: gold;
+}
+
+a:active {
+    color: goldenrod;
+}
+
+run-txt {
+    animation: floatText 35s infinite linear;
+    white-space: nowrap;
+    display: inline-block;
+    padding-left: 100%;
+    overflow: visible;
+}
+
+run-txt:hover {
+    animation-play-state: paused;
+}
+
+@keyframes floatText {
+    to {
+        transform: translateX(-100%);
+    }
+}
+  
+content-run {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    width: 100%;
+    color: white;
+    font-family: Montserrat medium;
+    background-color: slategray;
+}
