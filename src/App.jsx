@@ -21,10 +21,12 @@ function App() {
           </content-area>
 
           <content-run>
-            <run-txt href="https://google.com">
-                PHANKIET blog. Let's see what will be put in.
-            </run-txt>
-          </content-run>  
+              <a href="https://google.com">
+                <run-txt> 
+                  PHANKIET blog. Let's see what will be put in.
+                </run-txt>
+              </a>
+          </content-run>
 
       </header>
 
@@ -32,7 +34,7 @@ function App() {
       <bd>
 
 
-        <h1> HELLO, IT'S PHAN KIET</h1>
+        <h1>  href="https://google.com"> HELLO, IT'S PHAN KIET </h1>
 
 
       </bd>
