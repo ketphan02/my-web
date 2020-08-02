@@ -17,25 +17,29 @@ content-area {
     border-color: white;
     background-color: #282c34;
     color: white;
-    padding: 15px 30px;
-    font-size: large;
-    font-family: Montserrat light;
+    padding: 10px 20px;
+    font-size: medium;
+    font-family: Montserrat medium;
 }
-  
 
-a:link {
+.title-button:hover {
+    border-color: dimgray;
+    font-family: Montserrat bold;
+}
+
+run-txt:link {
     color: white;
 }
 
-a:visited {
+run-txt:visited {
     color: white;
 }
 
-a:hover {
+run-txt:hover {
     color: gold;
 }
 
-a:active {
+run-txt:active {
     color: goldenrod;
 }
 
@@ -66,4 +70,16 @@ content-run {
     color: white;
     font-family: Montserrat medium;
     background-color: slategray;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }

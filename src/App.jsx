@@ -12,20 +12,17 @@ function App() {
       <header className="App-header">
           <content-area>
             <h2 className="title">
-              PHAN_KIET_BLOG
+              <a href="/my-web/"> PHAN_KIET_BLOG </a>
             </h2>
-            <button className="title-button">
-              MAGIC BUTTON
-            </button>
+            <form action="https://google.com">
+              <button className="title-button"> MAGIC BUTTON </button>
+            </form>
 
           </content-area>
 
           <content-run>
-
-            <run-txt>
-                <a href="https://google.com">
-                  PHANKIET blog. Let's see what will be put in.
-                </a>
+            <run-txt href="https://google.com">
+                PHANKIET blog. Let's see what will be put in.
             </run-txt>
           </content-run>  
 
