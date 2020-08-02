@@ -27,8 +27,8 @@ function About() {
       
       <body-content>
         <intro>
-          <h3> HELLO, IT'S PHAN KIET </h3>
-          <p>This is my website which allows me to post my projects, my experience about coding, ML, DL, gym, stuff, etc. Want to know more ? "Almost everything" about me is in <a href="/my-web/about.html"> HERE</a>.
+          <h3> ABOUT ME </h3>
+          <p> HI
           <br></br>
           Okay, here we go.
           </p>

@@ -2,15 +2,22 @@ import React from 'react';
 import './App.css';
 import './Header.css';
 import './Font.css';
-import { Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import About from './About';
+import Home from './Home';
+
 
 export default App;
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      {/* <div className="App">
         <header className="App-header">
             <content-area>
               <h2>
@@ -31,7 +38,7 @@ function App() {
         <body-content>
           <intro>
             <h3> HELLO, IT'S PHAN KIET </h3>
-            <p>This is my website which allows me to post my projects, my experience about coding, ML, DL, gym, stuff, etc. Want to know more ? "Almost everything" about me is in <a href="/my-web/about.html"> HERE</a>.
+            <p>This is my website which allows me to post my projects, my experience about coding, ML, DL, gym, stuff, etc. Want to know more ? "Almost everything" about me is in <a href="/my-web/about"> HERE</a>.
             <br></br>
             Okay, here we go.
             </p>
@@ -39,12 +46,15 @@ function App() {
         </body-content>
         
         </header>
-      </div>
+      </div> */}
 
       <Switch>
-
+        
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/">
+          <Home />
         </Route>
 
 
