@@ -7,11 +7,20 @@ content-area {
     padding: 6px 0;
     width: 95%;
 }
-  
-.title {
+
+/* --------------------------------------------------- */
+content-run {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    width: 100%;
     color: white;
+    font-family: Montserrat medium;
+    background-color: slategray;
 }
-  
+
+/* --------------------------------------------------- */
 .title-button {
     border-radius: 6px;
     border-color: white;
@@ -27,6 +36,7 @@ content-area {
     font-family: Montserrat bold;
 }
 
+/* --------------------------------------------------- */
 run-txt:link {
     color: white;
 }
@@ -44,11 +54,13 @@ run-txt:active {
 }
 
 run-txt {
-    animation: floatText 35s infinite linear;
+    animation: floatText 10s infinite linear;
     white-space: nowrap;
     display: inline-block;
     padding-left: 100%;
     overflow: visible;
+    text-decoration: none;
+    color: white;
 }
 
 run-txt:hover {
@@ -60,26 +72,71 @@ run-txt:hover {
         transform: translateX(-100%);
     }
 }
-  
-content-run {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 4px 0;
-    width: 100%;
-    color: white;
-    font-family: Montserrat medium;
-    background-color: slategray;
-}
 
-a:link {
+/* --------------------------------------------------- */
+
+.title:link {
     color: white;
 }
 
-a:visited {
+.title:visited {
     color: white;
+}
+
+.title {
+    text-decoration: none;
+    color: white;
+}
+
+/* --------------------------------------------------- */
+h1 {
+    font-size: 180%;
+}
+
+h2 {
+    font-size: 160%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+h4 {
+    font-size: 120%;
+}
+
+h5 {
+    font-size: 100%;
+}
+
+h6 {
+    font-size: 80%;
+}
+
+/* --------------------------------------------------- */
+
+intro {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 a {
+    color: blue;
     text-decoration: none;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: aqua;
 }

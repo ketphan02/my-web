@@ -3,11 +3,11 @@ import './App.css';
 import './Header.css';
 import './Font.css';
 
-export default App;
+export default About;
 
-function App() {
+function About() {
   return (
-    <div className="App">
+    <div className="About">
       <header className="App-header">
           <content-area>
             <h2>
