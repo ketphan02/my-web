@@ -18,9 +18,8 @@ function Home() {
                     <intro>
                         <h3 className="sayhi"> HELLO!</h3>
                         <h4 className="sayhii"> IT'S PHAN KIET </h4>
-                        <p className="sayhiii">This is my website which allows me to post my projects, my experience about coding, ML, DL, gym, stuff, etc. 
-                        <br></br>
-                        Okay, here we go.
+                        <p className="sayhiii">
+                            This is my website which allows me to post my projects, my experience about coding, ML, DL, gym, stuff, etc. 
                         </p>
                     </intro>
                 </body-content>
