@@ -1,5 +1,7 @@
 .App {
   text-align: left;
+  position: absolute;
+  background-color: white;
 }
 
 .About {
@@ -18,15 +20,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-body-content {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding: 6px 0;
-  width: 100%;
-  color: black;
-  font-family: Montserrat medium;
-  background-color: white;
 }

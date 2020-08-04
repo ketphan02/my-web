@@ -8,10 +8,11 @@ export default Header;
 function Header() {
     return (
     <div>
+        
         <content-area>
-            <h2>
+            <h1>
                 <a href="/my-web/" className="title" > PHAN_KIET_BLOG </a>
-            </h2>
+            </h1>
 
         </content-area>
 

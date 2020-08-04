@@ -10,6 +10,12 @@ content-area {
 }
 
 /* --------------------------------------------------- */
+.content-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+/* --------------------------------------------------- */
 content-run {
     align-items: center;
     display: flex;
@@ -22,23 +28,7 @@ content-run {
 }
 
 /* --------------------------------------------------- */
-.title-button {
-    border-radius: 6px;
-    border-color: white;
-    background-color: #282c34;
-    color: white;
-    padding: 10px 20px;
-    font-size: medium;
-    font-family: Montserrat medium;
-}
-
-.title-button:hover {
-    border-color: dimgray;
-    font-family: Montserrat bold;
-}
-
-/* --------------------------------------------------- */
-run-txt:link {
+/* run-txt:link {
     color: white;
 }
 
@@ -48,11 +38,12 @@ run-txt:visited {
 
 run-txt:hover {
     color: gold;
+    animation-play-state: paused;
 }
 
 run-txt:active {
     color: goldenrod;
-}
+} */
 
 run-txt {
     animation: floatText 10s infinite linear;
@@ -62,10 +53,6 @@ run-txt {
     overflow: visible;
     text-decoration: none;
     color: white;
-}
-
-run-txt:hover {
-    animation-play-state: paused;
 }
 
 @keyframes floatText {
@@ -90,36 +77,38 @@ run-txt:hover {
 
 /* --------------------------------------------------- */
 h1 {
-    font-size: 180%;
+    font-size: 200%;
 }
 
 h2 {
-    font-size: 160%;
+    font-size: 180%;
 }
 
 h3 {
-    font-size: 140%;
+    font-size: 160%;
 }
 
 h4 {
-    font-size: 120%;
+    font-size: 140%;
 }
 
 h5 {
-    font-size: 100%;
+    font-size: 120%;
 }
 
 h6 {
-    font-size: 80%;
+    font-size: 100%;
 }
 
 /* --------------------------------------------------- */
 
 intro {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: large;
 }
 
+/* --------------------------------------------------- */
 a {
     color: blue;
     text-decoration: none;
@@ -139,4 +128,60 @@ a:hover {
 
 a:active {
     color: aqua;
+}
+
+/* --------------------------------------------------- */
+
+box {
+
+    display: block;
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    color: white;
+    background-color: #282c34;
+}
+
+div {
+    display: block;
+}
+
+
+body-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    width: 100%;
+    color: black;
+    font-family: Montserrat medium;
+    background-color: white;
+}
+
+contents {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-box {
+    width: 25%;
+    height: auto;
+    border: 3px solid #282c34;
+    background-color: #282c34;
+    display: block;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 6px 0;
+    border-radius: 8px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.box-title {
+    margin: 20px 0;
+    color: white
 }

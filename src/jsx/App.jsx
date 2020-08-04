@@ -5,8 +5,7 @@ import '../css/Font.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import About from './About';
 import Home from './Home';
