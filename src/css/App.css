@@ -1,0 +1,32 @@
+.App {
+  text-align: left;
+}
+
+.About {
+  text-align: left;
+}
+
+.App-header {
+  left: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  background-color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  width: 100%;
+  color: black;
+  font-family: Montserrat medium;
+  background-color: white;
+}
