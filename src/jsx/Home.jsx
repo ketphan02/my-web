@@ -16,8 +16,9 @@ function Home() {
             <div className="content-container">
                 <body-content>
                     <intro>
-                        <h2> HELLO, IT'S PHAN KIET </h2>
-                        <p>This is my website which allows me to post my projects, my experience about coding, ML, DL, gym, stuff, etc. 
+                        <h3 className="sayhi"> HELLO!</h3>
+                        <h4 className="sayhii"> IT'S PHAN KIET </h4>
+                        <p className="sayhiii">This is my website which allows me to post my projects, my experience about coding, ML, DL, gym, stuff, etc. 
                         <br></br>
                         Okay, here we go.
                         </p>
