@@ -9,11 +9,13 @@ import {
 } from "react-router-dom";
 import About from './About';
 import Home from './Home';
-
+// import { useEffect } from 'react';
 
 export default App;
 
 function App() {
+
+
   return (
     <Router>
 
@@ -25,7 +27,6 @@ function App() {
         <Route path="/my-web/">
           <Home />
         </Route>
-
 
       </Switch>
 

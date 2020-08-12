@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../css/App.css';
 import '../css/Header.css';
 import '../css/Font.css';
@@ -6,6 +6,12 @@ import '../css/Font.css';
 export default Header;
 
 function Header() {
+
+    useEffect(() =>
+    {
+        document.title = "PhanKiet's blog";
+    });
+
     return (
     <div>
         
